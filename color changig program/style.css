@@ -1,0 +1,60 @@
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  .canvas {
+    text-align: center;
+  }
+  
+  .button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+  }
+  
+  #grey {
+    background-color: grey;
+    border: 1px solid black;
+  }
+  
+  #white {
+    background-color: white;
+    border: 1px solid black; /* White button needs border for visibility */
+  }
+  
+  #blue {
+    background-color: rgb(15, 113, 170);
+    border: 1px solid black;
+  }
+  
+  #yellow {
+    background-color: rgb(226, 140, 27);
+    border: 1px solid black;
+  }
+  
